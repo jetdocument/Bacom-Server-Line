@@ -3,10 +3,10 @@
 Set interval check server with ubuntu 16.04
 
 ubuntu@ubuntu:~$ sudo crontab -e
-# select nano editor
+select nano editor
 Choose 1-4 [2]: 2
 
-* * * * * /bin/sh /home/ubuntu/notify.sh > /dev/null 2>&1
+\* \* \* \* \* /bin/sh /home/ubuntu/notify.sh > /dev/null 2>&1
 
 write file [Ctrl+o]
 exit file  [Ctrl+x]

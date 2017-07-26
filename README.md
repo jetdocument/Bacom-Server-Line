@@ -17,6 +17,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 with Zend OPcache v7.0.18-0ubuntu0.16.04.1, Copyright (c) 1999-2017, by Zend Technologies
 
 ubuntu@ubuntu:~$ sudo crontab -e
+
 select nano editor
 Choose 1-4 [2]: 2
 

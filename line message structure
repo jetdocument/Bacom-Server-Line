@@ -1,0 +1,45 @@
+[	
+	{	
+		"type":"message",
+
+		"replyToken":"3c2c2434f78e460bb79478c554c13e44",
+
+		"source":	{	
+						"groupId":"Ccc6c182dace6aeda58b1b7dc24276da7",
+						"userId":"Ua19821cd93141008d26221f16381d256",
+						"type":"group"	
+					},
+
+		"timestamp":1500647973744,
+
+		"message":	{	
+						"type":"text",
+						"id":"6422923782301",
+						"text":"getEvent"
+					} 
+	}
+]
+
+[	
+	{	
+		"type":"message",
+		"replyToken":"cd8981388b7f4afebadf73cf0fda064f",
+		"source": 	{	
+						"userId":"Ua19821cd93141008d26221f16381d256",
+						"type":"user"
+					},
+		"timestamp":1500656275954,
+		"message":	{	
+						"type":"sticker",
+						"id":"6423480364698",
+						"stickerId":"1575377",
+						"packageId":"1037426"
+					}
+	}
+]
+
+
+
+ else if ($bot->text == "getgroupId") {
+		$bot->replyMessageNew($bot->replyToken, $bot->groupid));
+	}
